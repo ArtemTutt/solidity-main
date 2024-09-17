@@ -5,7 +5,7 @@ import {SayHallo} from "./lib.sol";
 
 contract FundMe {
 
-    address owner;
+    address immutable owner;
     using SayHallo for uint;
 
     constructor() {
@@ -35,6 +35,14 @@ contract FundMe {
         infopay.push(newPay);
         balances[msg.sender].push(msg.value);
     }
+
+    receive() external payable { 
+        fund();
+    }
+
+    fallback() external payable {
+        fund();
+     }
 
     function getFund(address _addr, uint _index) public view returns(uint) {
         return balances[_addr][_index];
