@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "fund",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getFund",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "getMyNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fundMe/FundMe.sol": "FundMe"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fundMe/FundMe.sol": {
+			"keccak256": "0x6b0a7660eddfea1513853ef6dbc440f9c138b49b386b34ef9fea66d6b84abe16",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://75b90850cfc03078da0f1346ce630acf249d92e4acda237e5e101949ae9160d0",
+				"dweb:/ipfs/QmeJ7qqNCxneCo3pFNvcinNVQoHu2rvbnD3zR32co2PxPy"
+			]
+		},
+		"fundMe/lib.sol": {
+			"keccak256": "0x0440da86e86e63305c8944c9b385d8ff0eb784bbebc128c350279d7ad9dadcea",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8df0a8b37af9bdab4080a2604adeda387d59313fa4d88c802167014842cf4627",
+				"dweb:/ipfs/QmfDKno5FSePhwaQj2xp4tpRHjubJTT252BvAPEk82e1du"
+			]
+		}
+	},
+	"version": 1
+}

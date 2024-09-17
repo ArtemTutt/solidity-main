@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fundMe/lib.sol": "SayHallo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fundMe/lib.sol": {
+			"keccak256": "0xf2622f9daca594f92b6119588b098b43f4f605cfe15005664883b3ff1e181a76",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://480fb508e556fc426899f8e059648add283ee69d30b1d6762dd62a2f06d1e09d",
+				"dweb:/ipfs/QmQPVt6dazEsJSjiVjYPn4W1WHfbAf3UAtzxYChXDgGCuB"
+			]
+		}
+	},
+	"version": 1
+}
